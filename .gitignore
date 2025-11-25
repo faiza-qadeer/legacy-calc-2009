@@ -1,8 +1,14 @@
 *.[oa]
+*.obj
+*.pch
 *~
+*.log
 *.mk
 build/
 nbproject/
 .sconsign.dblite
 loanCalculator
+*.exe
+*.out
 moc*.cc
+.DS_Store
