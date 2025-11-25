@@ -1,11 +1,15 @@
-# Build Artifacts
+# Build artifacts
 *.o
-*.exe
-calc
-*.out
 *.obj
+*.exe
+*.out
+calc
 *.dll
 *.log
 
-# Ignore editor files
+# VS Code settings
 .vscode/
+
+# Other common temp files
+*.tmp
+*.cache
