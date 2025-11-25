@@ -1,0 +1,2 @@
+default_interest=10
+default_years=30

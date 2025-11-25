@@ -1,0 +1,23 @@
+# Doxyfile for legacy-calc-2009
+
+PROJECT_NAME           = "Legacy Loan Calculator 2009"
+OUTPUT_DIRECTORY       = "docs"
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+INPUT                  = src
+RECURSIVE              = YES
+
+FILE_PATTERNS          = *.cpp *.h
+
+EXTRACT_ALL            = YES
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+
+HTML_OUTPUT            = html
+GENERATE_TREEVIEW      = YES
+FULL_SIDEBAR           = YES
+
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
