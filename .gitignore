@@ -1,14 +1,11 @@
-*.[oa]
-*.obj
-*.pch
-*~
-*.log
-*.mk
-build/
-nbproject/
-.sconsign.dblite
-loanCalculator
+# Build Artifacts
+*.o
 *.exe
+calc
 *.out
-moc*.cc
-.DS_Store
+*.obj
+*.dll
+*.log
+
+# Ignore editor files
+.vscode/
